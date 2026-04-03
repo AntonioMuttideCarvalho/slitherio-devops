@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Slither.io - Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h1>🐍 SLITHER.IO CLONE</h1>
+        <form action="/game" method="GET">
+            <input type="text" name="name" placeholder="Digite seu nome" required maxlength="20">
+            <button type="submit">JOGAR</button>
+        </form>
+        <div class="instructions">
+            <p>🎮 Mova o mouse para controlar sua cobra</p>
+            <p>🍎 Coma os pontos vermelhos</p>
+            <p>🏆 Faça a maior pontuação!</p>
+        </div>
+    </div>
+</body>
+</html>
